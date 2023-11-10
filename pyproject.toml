@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "openai-playground"
+version = "0.1.0"
+description = ""
+authors = ["Artem Moskvin <artemm@spotify.com>"]
+readme = "README.md"
+packages = [{include = "openai_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.2.2"
+python-dotenv = "^1.0.0"
+pyaudio = "^0.2.14"
+pydub = "^0.25.1"
+simpleaudio = "^1.0.4"
+gradio = "^4.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
